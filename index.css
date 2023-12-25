@@ -1,0 +1,36 @@
+.container{
+    background-color: aquamarine;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+
+}
+#box{
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid brown;
+    height: 100px;
+    width: 200px;
+
+
+}
+.box1{
+background-color:red ;
+
+}
+
+.box2{
+   background-color: green;
+    
+}
+
+.box3{
+   background-color: purple;
+    
+}
+
+.box4{
+   background-color:orangered ;
+    
+}

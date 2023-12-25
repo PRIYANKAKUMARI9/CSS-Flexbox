@@ -1,0 +1,46 @@
+.container{
+    background-color: aquamarine;
+    border: 3px solid black;
+    height: 200px;
+    display: flex;
+  justify-content: center;/*center,start ,end, space between*/
+    justify-content: start;
+    align-content: end;
+    
+    
+   
+
+}
+#box{
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid brown;
+    height: 100px;
+    width: 200px;
+
+
+}
+.box1{
+background-color:rgb(0, 140, 255) ;
+order: -6;
+
+
+}
+
+.box2{
+   background-color: green;
+
+    
+}
+
+.box3{
+   background-color: purple;
+   flex-basis: 500px; /*current jo box hoga us box ki size badha dega in ROW of browser document or page*/
+   
+}
+
+.box4{
+   background-color:orangered ;
+   flex-shrink: 5;/* shrink or grow jb hm inspect krenge to babut jald ekadha hoga othar comparision much flexible*/
+    
+}
